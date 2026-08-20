@@ -116,6 +116,10 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   color: var(--navy);
 }
 .logo-img { width: 48px; height: 48px; object-fit: contain; flex-shrink: 0; }
+.logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+.logo-name { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; }
+.logo-sub { font-family: var(--font-body); font-weight: 600; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-soft); }
+.site-footer .logo-sub { color: #A9B4C6; }
 
 .nav-links {
   display: flex;
